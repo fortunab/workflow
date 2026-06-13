@@ -19,6 +19,45 @@ This folder reorganizes the uploaded notebooks into a cleaner Python project.
 - `project/scripts/`: runnable demos
 - `outputs/`: generated outputs
 
+- # Project 
+
+## Installation
+
+Create and activate a virtual environment:
+
+```bash
+python -m venv .venv
+```
+
+On Linux/macOS:
+
+```bash
+source .venv/bin/activate
+```
+
+On Windows PowerShell:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Run everything
+
+From the repository root:
+
+```bash
+python src/run_all.py
+```
+
+This generates all CSV files in `results/` and all plots in `figures/`.
+
+
 ## Notes
 - Notebook duplicates and exploratory cells were consolidated into reusable modules.
 - Heavy training code was converted into reusable stubs/helpers, while demo scripts generate lightweight outputs.
