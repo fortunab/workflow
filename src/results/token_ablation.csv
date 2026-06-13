@@ -1,0 +1,8 @@
+Metric,Variant,Value
+accuracy,Pipeline w/o tokens,0.83
+accuracy,Pipeline with tokens,0.89
+rougel,Pipeline w/o tokens,0.55
+rougel,Pipeline with tokens,0.61
+latency,No-tokens,420.0
+latency,Tokens Full,420.0
+latency,Tokens,270.0

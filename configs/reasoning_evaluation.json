@@ -1,0 +1,31 @@
+{
+  "MMBERT": {
+    "BLEU-4": 0.41,
+    "ROUGE-L": 0.48,
+    "METEOR": 0.33
+  },
+
+  "MedFuseNet": {
+    "BLEU-4": 0.45,
+    "ROUGE-L": 0.52,
+    "METEOR": 0.39
+  },
+
+  "TransformerVQA": {
+    "BLEU-4": 0.64,
+    "ROUGE-L": 0.71,
+    "METEOR": 0.62
+  },
+
+  "qwen(1k)": {
+    "BLEU-4": 0.24,
+    "ROUGE-L": 0.44,
+    "METEOR": 0.44
+  },
+
+  "qwen(10k)": {
+    "BLEU-4": 0.39,
+    "ROUGE-L": 0.61,
+    "METEOR": 0.63
+  }
+}

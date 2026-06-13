@@ -1,0 +1,32 @@
+{
+  "ROUGE-1": {
+    "Base model": 0.1471,
+    "Fine-tuned qwen3.5-0.8B-LoRA": 0.6704,
+    "Transformer VQA": 0.64,
+    "MedFuseNet": 0.58
+  },
+  "ROUGE-L": {
+    "Base model": 0.1004,
+    "Fine-tuned qwen3.5-0.8B-LoRA": 0.6105,
+    "Transformer VQA": 0.71,
+    "MedFuseNet": 0.52
+  },
+  "BLEU (raw)": {
+    "Base model": 0.0000,
+    "Fine-tuned qwen3.5-0.8B-LoRA": 0.3862,
+    "Transformer VQA": 0.64,
+    "MedFuseNet": 0.45
+  },
+  "BLEU (smoothed)": {
+    "Base model": 0.0084,
+    "Fine-tuned qwen3.5-0.8B-LoRA": 0.3912,
+    "Transformer VQA": 0.64,
+    "MedFuseNet": 0.45
+  },
+  "METEOR": {
+    "Base model": 0.1886,
+    "Fine-tuned qwen3.5-0.8B-LoRA": 0.6288,
+    "Transformer VQA": 0.62,
+    "MedFuseNet": 0.50
+  }
+}

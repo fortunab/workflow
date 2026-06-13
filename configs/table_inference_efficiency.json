@@ -1,0 +1,21 @@
+{
+  "U-Net (CPU/GPU optimized)": {
+    "Latency (ms)": 45,
+    "GPU mem (MB)": 2200
+  },
+
+  "DeepLabv3 (ResNet50 backbone)": {
+    "Latency (ms)": 80,
+    "GPU mem (MB)": 3400
+  },
+
+  "SAM2.1 (base, tiny)": {
+    "Latency (ms)": 100,
+    "GPU mem (MB)": 4800
+  },
+
+  "SAM2.1 + LoRA": {
+    "Latency (ms)": 120,
+    "GPU mem (MB)": 4900
+  }
+}

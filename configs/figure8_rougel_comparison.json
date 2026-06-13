@@ -1,0 +1,7 @@
+{
+  "MMBERT": 0.48,
+  "MedFuseNet": 0.52,
+  "qwen3.5-0.8B-LoRA (1k)": 0.44,
+  "qwen3.5-0.8B-LoRA (10k)": 0.61,
+  "TransformerVQA": 0.71
+}

@@ -1,0 +1,17 @@
+{
+  "accuracy": {
+    "Pipeline w/o tokens": 0.83,
+    "Pipeline with tokens": 0.89
+  },
+
+  "rougel": {
+    "Pipeline w/o tokens": 0.55,
+    "Pipeline with tokens": 0.61
+  },
+
+  "latency": {
+    "No-tokens": 420,
+    "Tokens Full": 420,
+    "Tokens": 270
+  }
+}

@@ -1,0 +1,5 @@
+Model,mIoU,Dice
+U-Net,0.69,0.76
+DeepLabv3,0.72,0.79
+SAM base,0.75,0.8
+SAM2.1+LoRA,0.78,0.83

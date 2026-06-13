@@ -1,0 +1,36 @@
+{
+  "ROUGE-1": {
+    "Base model": 0.1510,
+    "Fine-tuned qwen3.5-0.8B-LoRA": 0.4775,
+    "MMBERT": 0.41,
+    "MedFuseNet": 0.45
+  },
+
+  "ROUGE-L": {
+    "Base model": 0.1036,
+    "Fine-tuned qwen3.5-0.8B-LoRA": 0.4419,
+    "MMBERT": 0.48,
+    "MedFuseNet": 0.52
+  },
+
+  "BLEU (raw)": {
+    "Base model": 0.0000,
+    "Fine-tuned qwen3.5-0.8B-LoRA": 0.2374,
+    "MMBERT": 0.41,
+    "MedFuseNet": 0.45
+  },
+
+  "BLEU (smoothed)": {
+    "Base model": 0.0084,
+    "Fine-tuned qwen3.5-0.8B-LoRA": 0.2443,
+    "MMBERT": 0.41,
+    "MedFuseNet": 0.45
+  },
+
+  "METEOR": {
+    "Base model": 0.1881,
+    "Fine-tuned qwen3.5-0.8B-LoRA": 0.4380,
+    "MMBERT": 0.33,
+    "MedFuseNet": 0.39
+  }
+}

@@ -1,0 +1,6 @@
+Metric,Base model,Fine-tuned qwen3.5-0.8B-LoRA,Transformer VQA,MedFuseNet
+ROUGE-1,0.1471,0.6704,0.64,0.58
+ROUGE-L,0.1004,0.6105,0.71,0.52
+BLEU (raw),0.0,0.3862,0.64,0.45
+BLEU (smoothed),0.0084,0.3912,0.64,0.45
+METEOR,0.1886,0.6288,0.62,0.5

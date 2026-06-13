@@ -1,0 +1,26 @@
+{
+  "U-Net": {
+    "IoU": 0.78,
+    "Dice": 0.84
+  },
+
+  "Faster-RCNN": {
+    "IoU": 0.81,
+    "Dice": 0.85
+  },
+
+  "YOLOv8": {
+    "IoU": 0.85,
+    "Dice": 0.86
+  },
+
+  "SAM base": {
+    "IoU": 0.84,
+    "Dice": 0.87
+  },
+
+  "SAM2.1+LoRA": {
+    "IoU": 0.88,
+    "Dice": 0.90
+  }
+}

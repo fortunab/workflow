@@ -1,0 +1,9 @@
+Train/Test,Method,mIoU,Dice,mAP
+Kvasir-SEG (test),U-Net (baseline),0.78,0.84,0.81
+Kvasir-SEG (test),DeepLabv3,0.8,0.85,0.83
+Kvasir-SEG (test),SAM2.1 (base),0.84,0.87,0.86
+Kvasir-SEG (test),SAM2.1 + LoRA,0.86,0.9,0.89
+Train: Kvasir → Test: PolypGen,U-Net (baseline),0.69,0.76,0.71
+Train: Kvasir → Test: PolypGen,DeepLabv3,0.72,0.79,0.75
+Train: Kvasir → Test: PolypGen,SAM2.1 (base),0.75,0.8,0.78
+Train: Kvasir → Test: PolypGen,SAM2.1 + LoRA,0.78,0.83,0.81

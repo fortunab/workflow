@@ -1,0 +1,91 @@
+{
+  "Colorectal (Kvasir/PolypGen)": {
+    "Detection mAP@0.5": {
+      "Baselines": 0.86,
+      "Ensemble": 0.88,
+      "W/o tokens": 0.91,
+      "Tokens": 0.91
+    },
+    "Segmentation Dice": {
+      "Baselines": 0.84,
+      "Ensemble": 0.86,
+      "W/o tokens": 0.88,
+      "Tokens": 0.90
+    },
+    "End-to-end diagnostic accuracy": {
+      "Baselines": 0.78,
+      "Ensemble": 0.80,
+      "W/o tokens": 0.83,
+      "Tokens": 0.89
+    }
+  },
+
+  "Cervical (pap-smear)": {
+    "Classification accuracy": {
+      "Baselines": 0.89,
+      "Ensemble": 0.92,
+      "W/o tokens": 0.92,
+      "Tokens": 0.95
+    },
+    "F1-score": {
+      "Baselines": 0.87,
+      "Ensemble": 0.90,
+      "W/o tokens": 0.90,
+      "Tokens": 0.94
+    },
+    "AUC": {
+      "Baselines": 0.90,
+      "Ensemble": 0.92,
+      "W/o tokens": 0.92,
+      "Tokens": 0.95
+    }
+  },
+
+  "Alzheimer (MRI staging)": {
+    "Classification accuracy": {
+      "Baselines": 0.82,
+      "Ensemble": 0.85,
+      "W/o tokens": 0.87,
+      "Tokens": 0.90
+    },
+    "AUC": {
+      "Baselines": 0.85,
+      "Ensemble": 0.87,
+      "W/o tokens": 0.89,
+      "Tokens": 0.92
+    },
+    "F1-score": {
+      "Baselines": 0.81,
+      "Ensemble": 0.84,
+      "W/o tokens": 0.86,
+      "Tokens": 0.89
+    }
+  },
+
+  "VQA": {
+    "BLEU (smoothed)": {
+      "Baselines": 0.30,
+      "Ensemble": 0.35,
+      "W/o tokens": 0.40,
+      "Tokens": 0.39
+    },
+    "ROUGE-L": {
+      "Baselines": 0.45,
+      "Ensemble": 0.52,
+      "W/o tokens": 0.55,
+      "Tokens": 0.61
+    },
+    "METEOR": {
+      "Baselines": 0.40,
+      "Ensemble": 0.50,
+      "W/o tokens": 0.56,
+      "Tokens": 0.63
+    },
+    "Reasoning accuracy": {
+      "Baselines": 0.72,
+      "Ensemble": 0.76,
+      "W/o tokens": 0.78,
+      "Tokens": 0.81
+    }
+  }
+}

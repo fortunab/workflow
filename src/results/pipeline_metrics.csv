@@ -1,0 +1,14 @@
+Use case,Metric,Baselines,Ensemble,W/o tokens,Tokens
+Colorectal (Kvasir/PolypGen),Detection mAP@0.5,0.86,0.88,0.91,0.91
+Colorectal (Kvasir/PolypGen),Segmentation Dice,0.84,0.86,0.88,0.9
+Colorectal (Kvasir/PolypGen),End-to-end diagnostic accuracy,0.78,0.8,0.83,0.89
+Cervical (pap-smear),Classification accuracy,0.89,0.92,0.92,0.95
+Cervical (pap-smear),F1-score,0.87,0.9,0.9,0.94
+Cervical (pap-smear),AUC,0.9,0.92,0.92,0.95
+Alzheimer (MRI staging),Classification accuracy,0.82,0.85,0.87,0.9
+Alzheimer (MRI staging),AUC,0.85,0.87,0.89,0.92
+Alzheimer (MRI staging),F1-score,0.81,0.84,0.86,0.89
+VQA,BLEU (smoothed),0.3,0.35,0.4,0.39
+VQA,ROUGE-L,0.45,0.52,0.55,0.61
+VQA,METEOR,0.4,0.5,0.56,0.63
+VQA,Reasoning accuracy,0.72,0.76,0.78,0.81

@@ -1,0 +1,5 @@
+Method,Latency (ms),GPU mem (MB)
+U-Net (CPU/GPU optimized),45,2200
+DeepLabv3 (ResNet50 backbone),80,3400
+"SAM2.1 (base, tiny)",100,4800
+SAM2.1 + LoRA,120,4900

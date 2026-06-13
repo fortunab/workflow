@@ -1,0 +1,47 @@
+{
+  "Kvasir-SEG (test)": {
+    "U-Net (baseline)": {
+      "mIoU": 0.78,
+      "Dice": 0.84,
+      "mAP": 0.81
+    },
+    "DeepLabv3": {
+      "mIoU": 0.80,
+      "Dice": 0.85,
+      "mAP": 0.83
+    },
+    "SAM2.1 (base)": {
+      "mIoU": 0.84,
+      "Dice": 0.87,
+      "mAP": 0.86
+    },
+    "SAM2.1 + LoRA": {
+      "mIoU": 0.86,
+      "Dice": 0.90,
+      "mAP": 0.89
+    }
+  },
+
+  "Train: Kvasir → Test: PolypGen": {
+    "U-Net (baseline)": {
+      "mIoU": 0.69,
+      "Dice": 0.76,
+      "mAP": 0.71
+    },
+    "DeepLabv3": {
+      "mIoU": 0.72,
+      "Dice": 0.79,
+      "mAP": 0.75
+    },
+    "SAM2.1 (base)": {
+      "mIoU": 0.75,
+      "Dice": 0.80,
+      "mAP": 0.78
+    },
+    "SAM2.1 + LoRA": {
+      "mIoU": 0.78,
+      "Dice": 0.83,
+      "mAP": 0.81
+    }
+  }
+}

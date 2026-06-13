@@ -1,0 +1,21 @@
+{
+  "U-Net": {
+    "mIoU": 0.69,
+    "Dice": 0.76
+  },
+
+  "DeepLabv3": {
+    "mIoU": 0.72,
+    "Dice": 0.79
+  },
+
+  "SAM base": {
+    "mIoU": 0.75,
+    "Dice": 0.80
+  },
+
+  "SAM2.1+LoRA": {
+    "mIoU": 0.78,
+    "Dice": 0.83
+  }
+}
