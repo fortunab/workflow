@@ -1,0 +1,16 @@
+{
+  "latency": {
+    "Classifier": 30,
+    "Detector": 120,
+    "Segmentor": 120,
+    "VLM": 150,
+    "Total": 420
+  },
+
+  "gpu_load": {
+    "Classifier": 15,
+    "Detector": 45,
+    "Segmentor": 55,
+    "VLM": 65
+  }
+}

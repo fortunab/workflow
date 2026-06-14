@@ -1,0 +1,6 @@
+Stage,Latency (ms)
+Classifier,30
+Detector,120
+Segmentor,120
+VLM,150
+Total,420

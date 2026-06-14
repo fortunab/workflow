@@ -1,0 +1,5 @@
+{
+  "SAM base": 0,
+  "Full fine-tune": 35,
+  "SAM+LoRA": 0.8
+}

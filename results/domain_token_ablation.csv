@@ -1,0 +1,7 @@
+Domain,Metric,Without tokens,With tokens
+Colorectal,Accuracy,0.83,0.89
+Cervical,Accuracy,0.92,0.95
+Alzheimer,Accuracy,0.87,0.9
+Colorectal,ROUGE-L,0.55,0.61
+Cervical,ROUGE-L,0.56,0.62
+Alzheimer,ROUGE-L,0.54,0.6

@@ -1,0 +1,4 @@
+Method,Trainable parameters (M)
+SAM base,0.0
+Full fine-tune,35.0
+SAM+LoRA,0.8

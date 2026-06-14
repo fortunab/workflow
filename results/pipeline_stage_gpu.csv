@@ -1,0 +1,5 @@
+Stage,GPU load (%)
+Classifier,15
+Detector,45
+Segmentor,55
+VLM,65

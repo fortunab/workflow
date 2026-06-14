@@ -1,0 +1,22 @@
+{
+  "Baseline (independent)": {
+    "Latency (ms)": 320,
+    "GPU load (%)": 80
+  },
+  "Ensemble (parallel)": {
+    "Latency (ms)": 560,
+    "GPU load (%)": 95
+  },
+  "Pipeline w/o tokens": {
+    "Latency (ms)": 420,
+    "GPU load (%)": 100
+  },
+  "Ours (tokens, full)": {
+    "Latency (ms)": 420,
+    "GPU load (%)": 100
+  },
+  "Ours (tokens, selective)": {
+    "Latency (ms)": 270,
+    "GPU load (%)": 65
+  }
+}

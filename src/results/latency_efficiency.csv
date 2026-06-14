@@ -1,0 +1,6 @@
+Variant,Latency (ms),GPU load (%)
+Baseline (independent),320,80
+Ensemble (parallel),560,95
+Pipeline w/o tokens,420,100
+"Ours (tokens, full)",420,100
+"Ours (tokens, selective)",270,65
