@@ -14,10 +14,6 @@ CONFIG = ROOT / "configs" / "pipeline_stage_latency.json"
 with open(CONFIG, "r", encoding="utf-8") as f:
     data = json.load(f)
 
-# ------------------------------------
-# Export CSV files
-# ------------------------------------
-
 latency_df = pd.DataFrame({
     "Stage": list(data["latency"].keys()),
     "Latency (ms)": list(data["latency"].values())
@@ -44,19 +40,11 @@ print(latency_df.to_string(index=False))
 print("\nPipeline stage GPU load")
 print(gpu_df.to_string(index=False))
 
-# ------------------------------------
-# Figure
-# ------------------------------------
-
 fig, (ax1, ax2) = plt.subplots(
     2,
     1,
     figsize=(8, 6)
 )
-
-# ------------------------------------
-# Top panel: latency
-# ------------------------------------
 
 bars = ax1.bar(
     latency_df["Stage"],
@@ -78,10 +66,6 @@ for bar in bars:
 ax1.set_ylabel("Latency (ms)")
 ax1.set_ylim(0, 500)
 ax1.set_title("Per-stage latency")
-
-# ------------------------------------
-# Bottom panel: GPU load
-# ------------------------------------
 
 x = range(len(gpu_df))
 
