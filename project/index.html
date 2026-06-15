@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kvasir Agentic Orchestrator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app-container">
+    <header class="header">
+      <div>
+        <strong>Kvasir Multi-Model Agent</strong>
+        <p>Classifier &gt; Detector &gt; Segmentor &gt; LLM Explainer</p>
+      </div>
+    </header>
+
+    <section id="log" class="log" aria-live="polite">
+      <div class="msg agent-reply">
+        System initialized. Awaiting Kvasir dataset frame analysis...
+      </div>
+    </section>
+
+    <section class="controls">
+      <input
+        type="text"
+        id="userInput"
+        value="Analyze image 'cju0qkwp65uzu08359q7n859u.jpg' from Kvasir-SEG."
+        aria-label="Pipeline prompt"
+      />
+      <button id="runBtn">Run Pipeline</button>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
