@@ -72,3 +72,6 @@ Run inference:
 
 - llama.cpp
 - whisper.cpp
+
+  Example: winget install llama.cpp.
+  
