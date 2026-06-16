@@ -1,6 +1,6 @@
 # Workflow
 
-This repository contains Python experiment scripts.
+This repository contains Python scripts.
 
 You can run either one specific experiment or all experiments together using `src/run_all.py`.
 
