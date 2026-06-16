@@ -1,0 +1,13 @@
+torch
+torchvision
+numpy
+pandas
+datasets
+transformers
+peft
+accelerate
+pillow
+matplotlib
+tqdm
+pyyaml
+opencv-python

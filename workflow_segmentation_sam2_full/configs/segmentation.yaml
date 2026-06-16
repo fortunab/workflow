@@ -1,0 +1,11 @@
+model_id: facebook/sam2.1-hiera-tiny
+dataset_id: RGarrido03/kvasir-seg-augmented
+batch_size: 4
+learning_rate: 0.0001
+epochs: 1
+lora_r: 8
+lora_alpha: 16
+lora_dropout: 0.05
+lora_output_dir: models/lora/sam2.1-kvasir-lora-final
+merged_output_dir: models/merged/sam2_kvasir_merged
+threshold: 0.5
