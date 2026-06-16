@@ -13,7 +13,7 @@ Download and install Git for Windows:
 
 https://git-scm.com/download/win
 
-After installation, open a new terminal and verify Git:
+After installation, open a new terminal and verify Git in PowerShell:
 
 ```powershell
 git --version
@@ -48,7 +48,7 @@ cd workflow
 
 ## 3\. Create a virtual environment
 
-### Windows
+### Windows in PowerShell
 
 ```powershell
 python -m venv .venv
