@@ -2,7 +2,7 @@
 
 This repository contains Python experiment scripts.
 
-You can run either one specific experiment or all experiments together using `src/run\_all.py`.
+You can run either one specific experiment or all experiments together using `src/run_all.py`.
 
 
 ## 1\. Install Git
@@ -89,13 +89,13 @@ Use this command to execute all available experiment scripts.
 ### Windows
 
 ```powershell
-.\\.venv\\Scripts\\python.exe src\\run\_all.py
+.\\.venv\\Scripts\\python.exe src\\run_all.py
 ```
 
 ### Linux/macOS
 
 ```bash
-./.venv/bin/python src/run\_all.py
+./.venv/bin/python src/run_all.py
 ```
 
 \---
@@ -107,43 +107,43 @@ You can run each experiment separately.
 ### Windows
 
 ```powershell
-.\\.venv\\Scripts\\python.exe src\\segmentation\_metrics.py
-.\\.venv\\Scripts\\python.exe src\\inference\_efficiency.py
-.\\.venv\\Scripts\\python.exe src\\vqa\_evaluation\_small.py
-.\\.venv\\Scripts\\python.exe src\\vqa\_evaluation\_large.py
-.\\.venv\\Scripts\\python.exe src\\rougel\_comparison.py
-.\\.venv\\Scripts\\python.exe src\\bleu\_comparison.py
-.\\.venv\\Scripts\\python.exe src\\pipeline\_metrics.py
-.\\.venv\\Scripts\\python.exe src\\latency\_efficiency.py
-.\\.venv\\Scripts\\python.exe src\\token\_ablation.py
-.\\.venv\\Scripts\\python.exe src\\perception\_analysis.py
-.\\.venv\\Scripts\\python.exe src\\transfer\_analysis.py
-.\\.venv\\Scripts\\python.exe src\\cross\_dataset\_transfer.py
-.\\.venv\\Scripts\\python.exe src\\pipeline\_stage\_latency.py
-.\\.venv\\Scripts\\python.exe src\\domain\_token\_ablation.py
-.\\.venv\\Scripts\\python.exe src\\uncertainty\_behavior.py
-.\\.venv\\Scripts\\python.exe src\\segmentation\_ablation.py
+.\\.venv\\Scripts\\python.exe src\\segmentation_metrics.py
+.\\.venv\\Scripts\\python.exe src\\inference_efficiency.py
+.\\.venv\\Scripts\\python.exe src\\vqa_evaluation_small.py
+.\\.venv\\Scripts\\python.exe src\\vqa_evaluation_large.py
+.\\.venv\\Scripts\\python.exe src\\rougel_comparison.py
+.\\.venv\\Scripts\\python.exe src\\bleu_comparison.py
+.\\.venv\\Scripts\\python.exe src\\pipeline_metrics.py
+.\\.venv\\Scripts\\python.exe src\\latency_efficiency.py
+.\\.venv\\Scripts\\python.exe src\\token_ablation.py
+.\\.venv\\Scripts\\python.exe src\\perception_analysis.py
+.\\.venv\\Scripts\\python.exe src\\transfer_analysis.py
+.\\.venv\\Scripts\\python.exe src\\cross_dataset_transfer.py
+.\\.venv\\Scripts\\python.exe src\\pipeline_stage_latency.py
+.\\.venv\\Scripts\\python.exe src\\domain_token_ablation.py
+.\\.venv\\Scripts\\python.exe src\\uncertainty_behavior.py
+.\\.venv\\Scripts\\python.exe src\\segmentation_ablation.py
 ```
 
 ### Linux/macOS
 
 ```bash
-./.venv/bin/python src/segmentation\_metrics.py
-./.venv/bin/python src/inference\_efficiency.py
-./.venv/bin/python src/vqa\_evaluation\_small.py
-./.venv/bin/python src/vqa\_evaluation\_large.py
-./.venv/bin/python src/rougel\_comparison.py
-./.venv/bin/python src/bleu\_comparison.py
-./.venv/bin/python src/pipeline\_metrics.py
-./.venv/bin/python src/latency\_efficiency.py
-./.venv/bin/python src/token\_ablation.py
-./.venv/bin/python src/perception\_analysis.py
-./.venv/bin/python src/transfer\_analysis.py
-./.venv/bin/python src/cross\_dataset\_transfer.py
-./.venv/bin/python src/pipeline\_stage\_latency.py
-./.venv/bin/python src/domain\_token\_ablation.py
-./.venv/bin/python src/uncertainty\_behavior.py
-./.venv/bin/python src/segmentation\_ablation.py
+./.venv/bin/python src/segmentation_metrics.py
+./.venv/bin/python src/inference_efficiency.py
+./.venv/bin/python src/vqa_evaluation_small.py
+./.venv/bin/python src/vqa_evaluation_large.py
+./.venv/bin/python src/rougel_comparison.py
+./.venv/bin/python src/bleu_comparison.py
+./.venv/bin/python src/pipeline_metrics.py
+./.venv/bin/python src/latency_efficiency.py
+./.venv/bin/python src/token_ablation.py
+./.venv/bin/python src/perception_analysis.py
+./.venv/bin/python src/transfer_analysis.py
+./.venv/bin/python src/cross_dataset_transfer.py
+./.venv/bin/python src/pipeline_stage_latency.py
+./.venv/bin/python src/domain_token_ablation.py
+./.venv/bin/python src/uncertainty_behavior.py
+./.venv/bin/python src/segmentation_ablation.py
 ```
 
 \---
