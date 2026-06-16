@@ -1,0 +1,26 @@
+{
+  "detections": [
+    {
+      "label": "polyp",
+      "confidence": 0.91,
+      "box_xyxy": [
+        51,
+        42,
+        248,
+        219
+      ]
+    }
+  ],
+  "segmentations": [
+    {
+      "area_ratio": 0.0732
+    }
+  ],
+  "tokens": [
+    "<DET count='1' avg_conf='0.910' level='high'>",
+    "<BOX id='0' label='polyp' conf='0.910' x1='51.0' y1='42.0' x2='248.0' y2='219.0' />",
+    "<SEG masks='1' avg_area='0.0732' />",
+    "<UNCERTAINTY level='low' reason='consistent_detection' />"
+  ],
+  "report": "A consistent lesion-like region was identified. Detection and segmentation tokens support a focused finding. This is decision-support output and must be reviewed by a clinician."
+}

@@ -1,0 +1,4 @@
+<DET count='1' avg_conf='0.91' level='high'>
+<BOX id='0' label='polyp' conf='0.91' x1='51' y1='42' x2='248' y2='219' />
+<SEG masks='1' avg_area='0.0732' />
+<UNCERTAINTY level='low' reason='consistent_detection' />

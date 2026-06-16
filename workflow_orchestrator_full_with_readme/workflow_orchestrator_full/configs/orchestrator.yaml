@@ -1,0 +1,7 @@
+detection_api: http://localhost:8000/predict
+segmentation_api: null
+reasoning_api: null
+confidence_threshold: 0.45
+high_confidence_threshold: 0.75
+enable_selective_execution: true
+outputs_dir: outputs

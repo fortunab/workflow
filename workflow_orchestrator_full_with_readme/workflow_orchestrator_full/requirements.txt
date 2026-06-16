@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+requests
+pydantic
+pyyaml
+pillow
+numpy
+opencv-python
+matplotlib
