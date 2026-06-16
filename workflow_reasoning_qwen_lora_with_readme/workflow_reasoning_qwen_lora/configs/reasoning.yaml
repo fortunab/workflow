@@ -1,0 +1,14 @@
+model_id: Qwen/Qwen2.5-0.5B-Instruct
+dataset_id: Diogenes2024/medical-vqa-tokenized-demo
+train_jsonl: data/train_reasoning.jsonl
+eval_jsonl: data/eval_reasoning.jsonl
+lora_output_dir: models/lora/qwen_reasoning_lora
+merged_output_dir: models/merged/qwen_reasoning_merged
+max_seq_length: 512
+epochs: 1
+batch_size: 2
+gradient_accumulation_steps: 4
+learning_rate: 0.0002
+lora_r: 8
+lora_alpha: 16
+lora_dropout: 0.05
