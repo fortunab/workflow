@@ -1,10 +1,9 @@
 # Workflow
 
-This repository contains several Python experiment scripts located in the `src/` directory.
+This repository contains Python experiment scripts.
 
 You can run either one specific experiment or all experiments together using `src/run\_all.py`.
 
-\---
 
 ## 1\. Install Git
 
