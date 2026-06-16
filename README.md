@@ -175,8 +175,8 @@ source .venv/bin/activate
 After activation, you can run scripts in the following way:
 
 ```bash
-python src/segmentation\_metrics.py
-python src/run\_all.py
+python src/segmentation_metrics.py
+python src/run_all.py
 ```
 
 \---
