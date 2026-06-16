@@ -1,0 +1,17 @@
+torch
+torchvision
+numpy==1.26.4
+pandas>=2.1,<2.3
+pyarrow>=15,<18
+datasets>=2.19,<3.0
+ultralytics>=8.2,<9
+opencv-python<4.13
+pillow
+pyyaml
+tqdm
+fastapi
+uvicorn
+python-multipart
+requests
+shiny
+matplotlib
