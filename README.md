@@ -67,8 +67,8 @@ python3 -m venv .venv
 ### Windows
 
 ```powershell
-.\\.venv\\Scripts\\python.exe -m pip install --upgrade pip
-.\\.venv\\Scripts\\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m pip install --upgrade pip
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
 ### Linux/macOS
@@ -89,7 +89,7 @@ Use this command to execute all available experiment scripts.
 ### Windows
 
 ```powershell
-.\\.venv\\Scripts\\python.exe src\\run_all.py
+.\.venv\Scripts\python.exe src\run_all.py
 ```
 
 ### Linux/macOS
@@ -107,22 +107,22 @@ You can run each experiment separately.
 ### Windows
 
 ```powershell
-.\\.venv\\Scripts\\python.exe src\\segmentation_metrics.py
-.\\.venv\\Scripts\\python.exe src\\inference_efficiency.py
-.\\.venv\\Scripts\\python.exe src\\vqa_evaluation_small.py
-.\\.venv\\Scripts\\python.exe src\\vqa_evaluation_large.py
-.\\.venv\\Scripts\\python.exe src\\rougel_comparison.py
-.\\.venv\\Scripts\\python.exe src\\bleu_comparison.py
-.\\.venv\\Scripts\\python.exe src\\pipeline_metrics.py
-.\\.venv\\Scripts\\python.exe src\\latency_efficiency.py
-.\\.venv\\Scripts\\python.exe src\\token_ablation.py
-.\\.venv\\Scripts\\python.exe src\\perception_analysis.py
-.\\.venv\\Scripts\\python.exe src\\transfer_analysis.py
-.\\.venv\\Scripts\\python.exe src\\cross_dataset_transfer.py
-.\\.venv\\Scripts\\python.exe src\\pipeline_stage_latency.py
-.\\.venv\\Scripts\\python.exe src\\domain_token_ablation.py
-.\\.venv\\Scripts\\python.exe src\\uncertainty_behavior.py
-.\\.venv\\Scripts\\python.exe src\\segmentation_ablation.py
+.\.venv\Scripts\python.exe src\segmentation_metrics.py
+.\.venv\Scripts\python.exe src\inference_efficiency.py
+.\.venv\Scripts\python.exe src\vqa_evaluation_small.py
+.\.venv\Scripts\python.exe src\vqa_evaluation_large.py
+.\.venv\Scripts\python.exe src\rougel_comparison.py
+.\.venv\Scripts\python.exe src\bleu_comparison.py
+.\.venv\Scripts\python.exe src\pipeline_metrics.py
+.\.venv\Scripts\python.exe src\latency_efficiency.py
+.\.venv\Scripts\python.exe src\token_ablation.py
+.\.venv\Scripts\python.exe src\perception_analysis.py
+.\.venv\Scripts\python.exe src\transfer_analysis.py
+.\.venv\Scripts\python.exe src\cross_dataset_transfer.py
+.\.venv\Scripts\python.exe src\pipeline_stage_latency.py
+.\.venv\Scripts\python.exe src\domain_token_ablation.py
+.\.venv\Scripts\python.exe src\uncertainty_behavior.py
+.\.venv\Scripts\python.exe src\segmentation_ablation.py
 ```
 
 ### Linux/macOS
@@ -155,13 +155,13 @@ Instead of writing the full `.venv` Python path every time, you can activate the
 ### Windows CMD
 
 ```cmd
-.venv\\Scripts\\activate.bat
+.venv\Scripts\activate.bat
 ```
 
 ### Windows PowerShell
 
 ```powershell
-.venv\\Scripts\\Activate.ps1
+.venv\Scripts\Activate.ps1
 ```
 
 If PowerShell blocks script execution, use the non-activation commands above instead.
@@ -180,6 +180,12 @@ python src/run_all.py
 ```
 
 \---
+
+### Deactivate
+
+```powershell
+deactivate
+```
 
 ## Output
 
