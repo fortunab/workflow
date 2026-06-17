@@ -107,7 +107,7 @@ pip install -r requirements.txt
 Train the CNN:
 
 ```bash
-python scripts/train_model.py
+python scripts/alzheimer_cnn_cam_pipeline.py
 ```
 
 Generate GradCAM, GradCAM++, and ScoreCAM for one random test image:
