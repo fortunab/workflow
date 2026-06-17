@@ -88,3 +88,6 @@ copy runs\detect\polyp_yolov8\weights\best.pt models\yolo\best.pt
 python scripts\evaluate_yolo.py
 python scripts\run_pipeline.py --image examples\sample.jpg
 ```
+
+### Deactivate venv
+deactivate
