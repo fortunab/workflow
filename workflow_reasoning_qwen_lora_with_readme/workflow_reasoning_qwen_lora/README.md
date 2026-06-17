@@ -95,18 +95,12 @@ Default model:
 Qwen/Qwen2.5-0.5B-Instruct
 ```
 
-You may replace it with your Qwen model, for example:
+You may replace it with other Qwen model, for example:
 
 ```text
 Qwen/Qwen2.5-0.5B-Instruct
 Qwen/Qwen2.5-1.5B-Instruct
 Qwen/Qwen3-0.6B
-```
-
-The uploaded notebook is copied into:
-
-```text
-notebooks/
 ```
 
 ## 4. Training data format
@@ -170,11 +164,13 @@ models/merged/qwen_reasoning_merged
 python scripts\infer_reasoning.py
 ```
 
-You can also pass your own tokens:
+You can also pass these tokens:
 
 ```powershell
 python scripts\infer_reasoning.py --tokens "<DET count='1' avg_conf='0.91' level='high'> <SEG masks='1' avg_area='0.0732' /> <UNCERTAINTY level='low' reason='consistent_detection' />"
 ```
+
+or other ones. 
 
 Why this matters:
 - tests the reasoning layer
@@ -215,6 +211,12 @@ python scripts\train_qwen_lora.py
 python scripts\merge_lora.py
 python scripts\infer_reasoning.py
 python scripts\evaluate_reasoning.py
+```
+
+## Deactivate venv
+
+```powershell
+deactivate
 ```
 
 ## Integration with the full pipeline
