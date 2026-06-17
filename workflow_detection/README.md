@@ -41,7 +41,7 @@ If you only have Python 3.12, use `requirements-py312.txt`, but Python 3.10 is s
 6. Start FastAPI.
 7. Start Shiny/Posit interface.
 
-## Notes
+## Obs.
 
 The included segmentation component is a bounding-box mask fallback so that the full pipeline runs immediately.
 For article-level experiments, replace `fallback_bbox_segmentation()` in `app/pipeline.py` with SAM2.1 + LoRA inference.
