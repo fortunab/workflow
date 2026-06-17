@@ -90,4 +90,7 @@ python scripts\run_pipeline.py --image examples\sample.jpg
 ```
 
 ### Deactivate venv
+```powershell
 deactivate
+```
+
