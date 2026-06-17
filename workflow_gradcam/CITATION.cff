@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: "Workflow GradCAM"
+message: "If you use this GradCAM module, please cite the related workflow repository and article."
+type: software
+authors:
+  - family-names: Babuc
+    given-names: Diogen
+year: 2026
