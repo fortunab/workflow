@@ -40,6 +40,7 @@ workflow_gradcam/
 │   ├── train_model.py
 │   ├── generate_cams.py
 │   └── run_full_pipeline.py
+    └── alzheimer_cnn_cam_pipeline.py
 ├── notebooks/
 │   └── GradCAM_Elsevier_article.ipynb
 └── outputs/
