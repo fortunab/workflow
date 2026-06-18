@@ -1,8 +1,3 @@
-# ==========================================================
-# ALZHEIMER CNN + CAM PIPELINE (NO DATA AUGMENTATION)
-# Runnable Python script version
-# ==========================================================
-
 import os
 import glob
 import random
@@ -31,11 +26,6 @@ BATCH_SIZE = 64
 EPOCHS = 50
 BEST_MODEL_PATH = "best_model.keras"
 
-
-# ==========================================================
-# DATASET DOWNLOAD
-# ==========================================================
-
 def get_dataset_path():
     import kagglehub
 
@@ -51,11 +41,6 @@ def get_dataset_path():
         )
 
     return dataset_path
-
-
-# ==========================================================
-# DATA LOADERS
-# ==========================================================
 
 def create_data_generators(dataset_path):
     train_dir = os.path.join(dataset_path, "train")
@@ -90,10 +75,6 @@ def create_data_generators(dataset_path):
 
     return train_data, val_data, test_data, test_dir
 
-
-# ==========================================================
-# MODEL
-# ==========================================================
 
 def build_model():
     inputs = layers.Input(shape=(224, 224, 3))
@@ -137,10 +118,6 @@ def build_model():
     return model
 
 
-# ==========================================================
-# IMAGE + CAM HELPERS
-# ==========================================================
-
 def load_img(path):
     img = tf.keras.utils.load_img(path, target_size=IMG_SIZE)
     arr = tf.keras.utils.img_to_array(img) / 255.0
@@ -169,11 +146,6 @@ def overlay(cam, img):
         heat, 0.4,
         0
     )
-
-
-# ==========================================================
-# MAIN PIPELINE
-# ==========================================================
 
 def main():
     dataset_path = get_dataset_path()
