@@ -1,6 +1,6 @@
 # Workflow GradCAM
 
-Strict GradCAM module for the `fortunab/workflow` project.
+Strict GradCAM module for the `fortunab/workflow` project. 
 
 This repository contains a structured Python version of the notebook:
 
